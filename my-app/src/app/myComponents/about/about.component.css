@@ -1,0 +1,75 @@
+/* General page styling */
+body {
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main container spacing */
+  .container {
+    margin-top: 50px;
+  }
+  
+  /* Heading styles */
+  h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Form styling */
+  .form-control-lg {
+    border-radius: 8px;
+    font-size: 1.1rem;
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 10px 24px;
+    margin-top: 20px;
+  }
+  
+  /* Input group to vertically align input and button */
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Paragraph styling */
+  p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Button container */
+  .row.justify-content-center.col-md-6 {
+    margin-top: 30px;
+  }
+  
+  /* Optional: Add a subtle card background */
+  .col-md-6 {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  /* Wrapper to center the button vertically and horizontally */
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Optional: Tweak the button container for visual aesthetics */
+  .button-wrapper .btn-primary {
+    padding: 2px 28px;
+    font-size: 1.1rem;
+  }
+  
+  

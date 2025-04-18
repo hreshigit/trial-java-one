@@ -10,13 +10,7 @@
                     <div class="input-group">
                         <input class="form-control form-control-lg" placeholder="inputText" [(ngModel)]="inputText"
                             [ngModelOptions]="{standalone: true}">
-                            
 
-                        <!-- <button class="btn btn-primary px-4" >
-                            <i class="bi bi-search"></i>
-                        </button> -->
-
-                        <!-- <input type="text" [(ngModel)]="inputText" placeholder="Enter something..." [ngModelOptions]="{standalone: true}"/> -->
                         <p>You typed: {{ inputText }}</p>
                     </div>
                 </form>
@@ -24,9 +18,12 @@
         </div>
     </div>
 
-    <div class="row justify-content-center col-md-6">
-        <button class="btn btn-primary px-4 " (click)="onClickedd()">Hello</button>
+    <div class="button-wrapper">
+        <div class="row justify-content-center ">
+            <button class="btn btn-primary px-4" (click)="onClickedd()">Hello</button>
+        </div>
     </div>
-    
+
+
     <h3>You {{dummyText}}</h3>
 </div>
