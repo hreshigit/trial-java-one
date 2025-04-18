@@ -1,4 +1,4 @@
-<div>
+<!-- <div>
 
     <h3>This is Contact Page</h3>
 
@@ -7,7 +7,7 @@
         <div class="d-flex justify-content-center mx-auto" style="width: 250px; ">
 
             <!-- Costs:    <input type="number" (ng-model)="price"> -->
-            <!-- Total in dollar: {{ quantity }} -->
+            <!-- Total in dollar: {{ quantity }}
 
             <input type="number" class="form-control form-control-lg" placeholder="quantity" [(ngModel)]="quantity"
                 [ngModelOptions]="{standalone: true}"><h4>times</h4>
@@ -19,4 +19,27 @@
             <p>You typed: {{ quantity*price }}</p>
 
     </div>
-</div>
+</div> -->
+
+
+
+
+<div class="container mt-4">
+    <h1>Contact Me</h1>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+  </div>
+  
